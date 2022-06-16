@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>JavaScript Coding Challenge</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <header id="header" class="bg_color">
+            <h1>RESPONSIVE JS PAGE</h1>
+            <p>Play Around...!!</p>
+        </header>
+
+        <main role="main" id="main">
+
+            <section class="code bg_color">
+                <div class="form">
+                    <h2>Leetcode TwoSum</h2>
+                    <span>Enter an array of at least two numbers separated by commas, without the box brackets. Example: 1, 2, 3.</span>
+                    <span>[&nbsp;<input type="text" id="array2">&nbsp;]</span>
+                    <span>Enter the target sum:</span>
+                    <input type="number" name="sum" id="sum" required>
+                    <button id="submit_sum">Get Matching pairs</button>
+                    </form>
+                </div>
+                <span id="output_sum" class="answer"></span>
+            </section>
+
+            <section class="code bg_color">
+                <div class="form">
+                    <h2>Clean the room</h2>
+                    <span>Enter an array of numbers and/or string numbers separated by commas 
+                          Examples: 1, 2, 4, 591, 392, 391, 2, 5, 10, 2, 1, 1, 1, 20, 20 or 1, "2", "3", 2.</span>
+                    <span>[&nbsp;<input type="text" id="array1">&nbsp;]</span>
+                    <button id="submit_array">Clean array</button>
+                </div>
+                <span id="output_array" class="answer"></span>
+            </section>
+
+            <section class="code bg_color">
+                <div class="form">
+                    <h2>Rgb &lt;&equals;&gt; Hex color convertor</h2>
+                    <span>Enter the color in hex or rgb format. Examples: #FFF, #FFFFFF, rgb(198, 0, 255).</span>
+                    <input type="text" id="color">
+                    <button id="submit_color">Convert color</button>
+                </div>
+                <span id="output_color" class="answer"></span>
+            </section>
+        </main>
+
+        <footer class="bg-dark text-center text-white">
+
+            <div class="container p-4">
+              <section class="mb-4"> 
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/shahvez-ahmad/" role="button" target="_blank">Linkedin</a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: rgba(0, 0, 0, 0.2)" href="https://github.com/shahvezahmad" role="button" target="_blank">Github</a>
+              </section>
+            </div>
+            <div class="text-center p-3" style="background-color: #1b2b34">
+                Shahvez Ahmad!!
+            </div>
+          </footer>
+
+    </div>
+    
+    <script src="cleanroom.js"></script>
+    <script src="twosum.js"></script>
+    <script src="colorconvertor.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
